@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'Prime methods.' do
+describe 'Prime.' do
   it 'should check if number is prime' do
     expect(Prime.prime?(541)).to be true
     expect(Prime.prime?(542)).to be false
