@@ -46,3 +46,9 @@ Or install it yourself as:
 
 - Rspec:
     - `bundle exec rspec`
+
+## Development
+
+When working on this gem locally, if you want to run it, you just need to:
+
+`bundle exec bin/primes_table`
