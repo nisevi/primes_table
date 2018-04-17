@@ -10,7 +10,7 @@ class App
 
   main do
     rows = options[:rows].to_i < 10 ? 10 : options[:rows].to_i
-    columns = options[:columns].to_i < 10 ? 10 : options[:rows].to_i
+    columns = options[:columns].to_i < 10 ? 10 : options[:columns].to_i
     args = { rows: rows, columns: columns }
     matrix = Matrix.new(args)
     matrix.print
