@@ -1,8 +1,6 @@
 # PrimesTable
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/primes_table`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Command line tool for printing out a multiplication table of the first N prime numbers.
 
 ## Installation
 
@@ -22,14 +20,29 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+- By default the table it will be generated as a matrix of 10X10;
 
-## Development
+- Only values greater or equal than 10 will be considered for specifying rows or columns;
 
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+- If you enter a value minor than 10, it will default to 10;
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+- Only integer values are considered. For example, if you enter an string, it will be converted to integer, the result will be 0 (zero) and will default to 10 because zero is minor than 10;
 
-## Contributing
+- Options:
+    - `-h, --help` to see the available options;
+    - `-r, --rows ROWS` to specify how many rows;
+    - `-c, --columns COLUMNS` to specify how many columns;
+    - `--version` it will give you the version of the gem you are using;
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/primes_table.
+- Command examples:
+    - `primes_table --version`;
+    - `primes_table --help`;
+    - `primes_table`;
+    - `primes_table -r 17`;
+    - `primes_table -c 23`;
+    - `primes_table -r 17 -c 23`;
+
+## Tests
+
+- Rspec:
+    - `bundle exec rspec`
