@@ -3,7 +3,8 @@ class Prime
   class << self
     def prime?(number)
       return false if number < 2
-      (2...number).each do |i|
+      sqrt = Math.sqrt(number).to_i
+      (2..sqrt).each do |i|
         return false if (number % i).zero?
       end
       true
