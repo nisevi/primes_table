@@ -1,5 +1,4 @@
 require 'simplecov'
-require 'primes_table/prime'
 require 'primes_table/matrix'
 
 SimpleCov.start

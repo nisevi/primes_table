@@ -19,10 +19,6 @@ class Matrix
 
   private
 
-  def header(limit)
-    Prime.generate_primes(limit)
-  end
-
   def load_table(rows, columns)
     collection = []
     rows.each_with_index do |row_value, row_index|
@@ -51,5 +47,36 @@ class Matrix
 
   def format_collection(list, distance)
     list.collect { |i| ' ' * (distance - i.to_s.size) + i.to_s }.join('  ').to_s
+  end
+
+  def header(max)
+    flags = [true] * (max + 1)
+    flags[0] = flags[1] = false
+    prime = 2
+    while prime <= Math.sqrt(max)
+      cross_off(flags, prime)
+      prime = next_prime(flags, prime)
+    end
+    process_flags(flags)
+  end
+
+  def cross_off(flags, prime)
+    (prime * prime..flags.length).step(prime).each do |i|
+      flags[i] = false
+    end
+  end
+
+  def next_prime(flags, prime)
+    following = prime + 1
+    following += 1 while following < flags.length && !flags[following]
+    following
+  end
+
+  def process_flags(flags)
+    primes = []
+    flags.each_with_index do |value, index|
+      primes << index if value
+    end
+    primes
   end
 end
