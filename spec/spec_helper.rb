@@ -1,4 +1,8 @@
+require 'simplecov'
 require 'primes_table/prime'
+require 'primes_table/matrix'
+
+SimpleCov.start
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
