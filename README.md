@@ -53,4 +53,14 @@ Or install it yourself as:
 
 When working on this gem locally, if you want to run it, you just need to:
 
-`bundle exec bin/primes_table`
+`$ bundle exec bin/primes_table`
+
+and you will get the default output:
+
+|     |   2  |  3  |   5  |   7  |
+|:---:|:----:|:---:|:----:|:----:|
+|  2  |   4  |  6  |   10 |  14  |
+|  3  |   6  |  9  |   15 |  21  |
+|  5  |  10  | 15  |   25 |  35  |
+|  7  |  14  | 21  |   35 |  49  |
+
