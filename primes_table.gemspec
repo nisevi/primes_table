@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = PrimesTable::VERSION
   spec.authors       = ['Nicolas Sebastian Vidal']
   spec.email         = ['nicolas.s.vidal@gmail.com']
-
   spec.summary       = 'Prints out a multiplication table of the first N prime numbers.'
   spec.description   = 'Command line tool for printing out a multiplication table of the first N prime numbers.'
+  spec.homepage      = 'https://github.com/nisevi/primes_table'
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
@@ -18,6 +18,7 @@ Gem::Specification.new do |spec|
   spec.bindir        = 'bin'
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
+  spec.required_ruby_version = '>= 2.5.0'
 
   spec.add_development_dependency 'aruba', '~> 0.14.3'
   spec.add_development_dependency 'bundler', '~> 1.16', '>= 1.16.1'
