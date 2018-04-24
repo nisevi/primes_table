@@ -1,7 +1,9 @@
 require 'simplecov'
 require 'primes_table/matrix'
 
-SimpleCov.start
+SimpleCov.start do
+  add_filter 'spec'
+end
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
