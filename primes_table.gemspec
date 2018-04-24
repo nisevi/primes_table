@@ -4,7 +4,7 @@ require 'primes_table/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'primes_table'
-  spec.license       = 'APACHE'
+  spec.license       = 'Apache-2.0'
   spec.version       = PrimesTable::VERSION
   spec.authors       = ['Nicolas Sebastian Vidal']
   spec.email         = ['nicolas.s.vidal@gmail.com']
