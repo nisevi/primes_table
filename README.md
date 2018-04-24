@@ -1,4 +1,4 @@
-[![Maintainability](https://api.codeclimate.com/v1/badges/76cdbb4e023166cc619d/maintainability)](https://codeclimate.com/github/nisevi/primes_table/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/76cdbb4e023166cc619d/test_coverage)](https://codeclimate.com/github/nisevi/primes_table/test_coverage) [![Build Status](https://semaphoreci.com/api/v1/nisevi/primes_table/branches/master/shields_badge.svg)](https://semaphoreci.com/nisevi/primes_table)
+[![Maintainability](https://api.codeclimate.com/v1/badges/76cdbb4e023166cc619d/maintainability)](https://codeclimate.com/github/nisevi/primes_table/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/76cdbb4e023166cc619d/test_coverage)](https://codeclimate.com/github/nisevi/primes_table/test_coverage) [![Build Status](https://semaphoreci.com/api/v1/nisevi/primes_table/branches/master/shields_badge.svg)](https://semaphoreci.com/nisevi/primes_table) [![Gem Version](https://badge.fury.io/rb/primes_table.svg)](https://badge.fury.io/rb/primes_table)
 
 # PrimesTable
 
