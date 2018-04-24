@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-- By default the table it will be generated as a matrix of 10X10;
+- By default the table will be generated as a matrix of 10X10;
 
 - Only values greater or equal than 10 will be considered for specifying rows or columns;
 
