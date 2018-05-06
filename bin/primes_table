@@ -2,7 +2,7 @@
 
 require 'optparse'
 require 'methadone'
-require 'primes_table.rb'
+require 'primes_table'
 
 class App
   include Methadone::Main
