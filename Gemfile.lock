@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     primes_table (0.1.2)
-      methadone (~> 1.9, >= 1.9.5)
+      methadone (>= 1.9.5, < 3.0)
 
 GEM
   remote: https://rubygems.org/
@@ -41,7 +41,7 @@ GEM
     ffi (1.9.25)
     gherkin (5.1.0)
     json (2.1.0)
-    methadone (1.9.5)
+    methadone (2.0.0)
       bundler
     multi_json (1.13.1)
     multi_test (0.1.2)
