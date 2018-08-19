@@ -1,4 +1,5 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/76cdbb4e023166cc619d/maintainability)](https://codeclimate.com/github/nisevi/primes_table/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/76cdbb4e023166cc619d/test_coverage)](https://codeclimate.com/github/nisevi/primes_table/test_coverage) [![Build Status](https://semaphoreci.com/api/v1/nisevi/primes_table/branches/master/shields_badge.svg)](https://semaphoreci.com/nisevi/primes_table) [![Gem Version](https://badge.fury.io/rb/primes_table.svg)](https://badge.fury.io/rb/primes_table)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fnisevi%2Fprimes_table.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fnisevi%2Fprimes_table?ref=badge_shield)
 
 # PrimesTable
 
@@ -64,3 +65,7 @@ and you will get the default output:
 |  5  |  10  | 15  |   25 |  35  |
 |  7  |  14  | 21  |   35 |  49  |
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fnisevi%2Fprimes_table.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fnisevi%2Fprimes_table?ref=badge_large)
