@@ -27,5 +27,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rdoc', '~> 6.0', '>= 6.0.1'
   spec.add_dependency 'methadone', '>= 1.9.5', '< 3.0'
   spec.add_development_dependency 'rspec', '~> 3.7'
-  spec.add_development_dependency 'simplecov', '~> 0.17.0'
+  spec.add_development_dependency 'simplecov', '~> 0.18.0'
 end
