@@ -45,7 +45,7 @@ GEM
     multi_json (1.13.1)
     multi_test (0.1.2)
     rake (13.0.0)
-    rdoc (6.2.0)
+    rdoc (6.2.1)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
       rspec-expectations (~> 3.9.0)
