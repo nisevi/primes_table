@@ -1,7 +1,8 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
-require "bundler/setup"
-require "primes_table"
+require 'bundler/setup'
+require 'primes_table'
 
-require "irb"
+require 'irb'
 IRB.start(__FILE__)

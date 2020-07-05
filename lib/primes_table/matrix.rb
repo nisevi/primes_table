@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Matrix
   attr_accessor :rows_header, :columns_header, :table
 
