@@ -28,6 +28,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rdoc', '~> 6.2', '>= 6.2.1'
   spec.add_dependency 'methadone', '~> 2.0', '>= 2.0.2'
   spec.add_development_dependency 'rspec', '~> 3.9'
-  spec.add_development_dependency 'rubocop', '~> 0.86.0'
+  spec.add_development_dependency 'rubocop', '~> 1.18.3'
   spec.add_development_dependency 'simplecov', '~> 0.17.1'
 end
